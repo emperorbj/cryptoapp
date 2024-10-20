@@ -24,7 +24,7 @@ const CoinCard = ({ coin }) => {
       
       <div>
       
-      <Card className="w-[200px] flex flex-col justify-center items-center md:w-[330px]">
+      <Card className="w-[170px] flex flex-col justify-center items-center md:w-[280px]">
         <CardHeader>
           <CardTitle className="dark:text-blue-500">{coin?.name}</CardTitle>
           <CardDescription>
