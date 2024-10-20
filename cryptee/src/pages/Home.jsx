@@ -1,6 +1,5 @@
 import CoinCard from "@/components/CoinCard"
 // import Navbar from "@/components/Navbar"
-import Sidebar from "@/components/Sidebar"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { SearchIcon } from "lucide-react"
@@ -40,7 +39,7 @@ const Home = () => {
         <div className="">
             {/* <Navbar /> */}
             <div className="hidden">
-                <Sidebar />
+                {/* <Sidebar /> */}
             </div>
             {/* Welcome page */}
             <div className="">
