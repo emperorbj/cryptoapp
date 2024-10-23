@@ -57,7 +57,7 @@ const Home = () => {
                 </form>
 
                 {/* coin card display */}
-                <div className="mx-8 gap-3 md:gap-5 md:mx-14 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                <div className="mx-4 gap-3 md:gap-5 md:mx-14 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     {filteredCoins.length > 0 ? (
                         filteredCoins.map((coin) => (
                             <Link key={coin.id} to={`/coin-details/${coin.id}`}>
